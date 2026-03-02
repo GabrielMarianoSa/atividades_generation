@@ -1,17 +1,13 @@
-let n1 = 5;
-let n2 = 6;
-let n3 = 7;
-let n4 = 8;
+const leia = require("readline-sync");
+
+let n1 = leia.questionFloat("Digite numero 1: ");
+
+let n2 = leia.questionFloat("Digite numero 2: ");
+
+let n3 = leia.questionFloat("Digite numero 3: ");
+
+let n4 = leia.questionFloat("Digite numero 4: ");
 
 let diferenca = n1 * n2 - n3 * n4;
 
-console.log("Diferença: ", diferenca);
-
-let n5 = 5;
-let n6 = 6;
-let n7 = -7;
-let n8 = 8;
-
-let diferenca2 = n5 * n6 - n7 * n8;
-
-console.log("Diferença: ", diferenca2);
+console.log("Diferença:", diferenca);

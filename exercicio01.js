@@ -1,11 +1,9 @@
-let salario = 10000;
+const leia = require("readline-sync");
 
-console.log("O seu salário é: " + salario);
+let salario = leia.questionFloat("Digite o salario: ");
 
-let abono = 1000;
+let abono = leia.questionFloat("Digite o abono: ");
 
-console.log("O seu abono é: " + abono);
+let novoSalario = salario + abono;
 
-novoSalario = salario + abono;
-
-console.log("O seu novo salario + abono é: " + novoSalario);
+console.log("Novo salario:", novoSalario);
