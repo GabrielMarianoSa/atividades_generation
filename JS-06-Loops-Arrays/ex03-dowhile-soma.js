@@ -7,11 +7,11 @@ let numero;
 let soma = 0;
 
 do {
-  numero = readline.questionInt("Digite um número: ");
+  numero = readline.questionInt("Digite um numero: ");
 
   if (numero > 0) {
     soma = soma + numero;
   }
 } while (numero !== 0);
 
-console.log(`A soma dos números positivos é: ${soma}`);
+console.log(`A soma dos numeros positivos é: ${soma}`);

@@ -3,8 +3,8 @@
 
 const readline = require("readline-sync");
 
-let inicio = readline.questionInt("Digite o primeiro número do intervalo: ");
-let fim = readline.questionInt("Digite o último número do intervalo: ");
+let inicio = readline.questionInt("Digite o primeiro numero do intervalo: ");
+let fim = readline.questionInt("Digite o ultimo numero do intervalo: ");
 
 // verificar se o intervalo é válido
 if (inicio >= fim) {
@@ -16,7 +16,7 @@ if (inicio >= fim) {
   for (let i = inicio; i <= fim; i++) {
     // verificar múltiplos de 3 e 5
     if (i % 3 === 0 && i % 5 === 0) {
-      console.log(`${i} é múltiplo de 3 e 5`);
+      console.log(`${i} é multiplo de 3 e 5`);
     }
   }
 }

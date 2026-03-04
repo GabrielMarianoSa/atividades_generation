@@ -6,7 +6,7 @@ const readline = require("readline-sync");
 let vetor = [2, 5, 1, 3, 4, 9, 7, 8, 10, 6];
 
 let numero = readline.questionInt(
-  "Digite o número que você deseja encontrar: ",
+  "Digite o numero que você deseja encontrar: ",
 );
 
 let encontrado = false;
@@ -20,5 +20,5 @@ for (let i = 0; i < vetor.length; i++) {
 }
 
 if (!encontrado) {
-  console.log("O número não foi encontrado!");
+  console.log("O numero não foi encontrado!");
 }
